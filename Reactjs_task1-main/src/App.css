@@ -1,0 +1,57 @@
+body {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100vh; /* Ensures it takes up the full viewport height */
+
+  margin: 0;
+
+}
+
+.word-counter {
+
+  max-width: 400px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+  padding: 10px;
+
+  border-radius: 20px;
+
+  text-align: center; 
+
+}
+
+ 
+
+textarea {
+
+  width: 80%;
+
+  padding: 10px;
+
+  margin: 0 auto; 
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+  resize: vertical;
+
+}
+
+ 
+
+p {
+
+  font-size: 18px;
+
+  text-align: center; 
+
+}
